@@ -1,0 +1,216 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/11?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/project"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/field_images": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-06\/Sign%20Up.png"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-06\/Ride.png"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/field_teaser_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-06\/Sign%20Up_0.png"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "66a6b862-fe94-4314-ae8d-6797b015d46b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "project"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-14T04:51:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e0ed507-a082-4fa5-b44a-080bd56bd80f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e0ed507-a082-4fa5-b44a-080bd56bd80f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/field_images": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-06\/Sign%20Up.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bd418763-ecab-4cf9-bb72-7df43f7bc2e8"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-06\/Ride.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "932ea40f-cf12-41a8-8d26-292a5f6f089a"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/field_teaser_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-06\/Sign%20Up_0.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e8e02f11-3acf-4d26-9f74-f4b4ef5928bc"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "RideBit",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T04:46:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T04:51:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>App design for a Uber app clone. Part of Android Studio Project for a Course. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae semper arcu. Etiam id ullamcorper turpis. Fusce ac interdum turpis, sit amet aliquet turpis. Nulla ex mi, aliquam sit amet metus posuere, efficitur sollicitudin nisi. Quisque eros nulla, hendrerit et congue nec, efficitur at purus. Duis tincidunt cursus lacinia. In sit amet turpis odio. Vivamus rhoncus erat sed enim pharetra, sed faucibus lacus vestibulum. Quisque ut lacus nunc.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>App design for a Uber app clone. Part of Android Studio Project for a Course. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae semper arcu. Etiam id ullamcorper turpis. Fusce ac interdum turpis, sit amet aliquet turpis. Nulla ex mi, aliquam sit amet metus posuere, efficitur sollicitudin nisi. Quisque eros nulla, hendrerit et congue nec, efficitur at purus. Duis tincidunt cursus lacinia. In sit amet turpis odio. Vivamus rhoncus erat sed enim pharetra, sed faucibus lacus vestibulum. Quisque ut lacus nunc.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "RideBit",
+            "format": "basic_html",
+            "processed": "RideBit"
+        }
+    ]
+}

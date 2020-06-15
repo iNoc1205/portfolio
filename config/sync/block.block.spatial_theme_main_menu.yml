@@ -1,0 +1,27 @@
+uuid: 0c9c3ba6-780b-4425-93d5-1f8c338913be
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: zDvMPv96pbWqmZqsTCKZtP0oUOiljQ8FoMhUS--ecUI
+id: spatial_theme_main_menu
+theme: spatial_theme
+region: navigation
+weight: -14
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

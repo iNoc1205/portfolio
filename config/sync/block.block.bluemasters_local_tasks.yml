@@ -1,0 +1,22 @@
+uuid: f6c47ed1-6932-454c-a28a-eac5e3472f23
+langcode: en
+status: false
+dependencies:
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: MNOBDSB12IuzarD7SGldiDrvWwpCuxsiXNeZs2VZQXw
+id: bluemasters_local_tasks
+theme: bluemasters
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

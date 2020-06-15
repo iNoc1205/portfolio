@@ -1,0 +1,22 @@
+uuid: e2fdbb19-b95f-494d-8e6a-18a94d29a95b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: 3J09TDEuiAAr5-SBIOpvVYAQzeIVR2g8Ab34vJopCHM
+id: spatial_theme_messages
+theme: spatial_theme
+region: highlighted
+weight: -10
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

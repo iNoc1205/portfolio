@@ -1,0 +1,22 @@
+uuid: 56e32b55-77cc-4b0e-9ed2-ae578fcb66d1
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: WQfhtI7-JEFDRQLTWTKn-UY0vmY7tRcwUGlCwI4BElE
+id: spatial_theme_powered
+theme: spatial_theme
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

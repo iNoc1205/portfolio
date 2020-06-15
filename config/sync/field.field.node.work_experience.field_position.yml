@@ -1,0 +1,21 @@
+uuid: 9525b590-e625-4a65-b45e-59bda51e14b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_position
+    - node.type.work_experience
+  module:
+    - text
+id: node.work_experience.field_position
+field_name: field_position
+entity_type: node
+bundle: work_experience
+label: Position
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

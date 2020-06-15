@@ -1,0 +1,198 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/project"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/field_images": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-06\/V1.png"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/field_teaser_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-06\/V1_1.png"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "060fe5be-d3a7-428d-9060-88e84aecbbd3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "project"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-14T04:46:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e0ed507-a082-4fa5-b44a-080bd56bd80f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e0ed507-a082-4fa5-b44a-080bd56bd80f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/field_images": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-06\/V1.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "243c2e0f-868a-4cbd-9f15-a67e66423caf"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/project\/field_teaser_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-06\/V1_1.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "25645409-4d67-40ed-bb07-4dce38321025"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "D\u00eda Mundial de toma de  conciencia del abuso y maltrato hacia  las personas adultas mayores",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T02:33:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T04:46:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae semper arcu. Etiam id ullamcorper turpis. Fusce ac interdum turpis, sit amet aliquet turpis. Nulla ex mi, aliquam sit amet metus posuere, efficitur sollicitudin nisi. Quisque eros nulla, hendrerit et congue nec, efficitur at purus. Duis tincidunt cursus lacinia. In sit amet turpis odio. Vivamus rhoncus erat sed enim pharetra, sed faucibus lacus vestibulum. Quisque ut lacus nunc. Suspendisse nibh massa, pharetra eget urna sit amet, sagittis tristique nunc. Cras mattis massa sed justo eleifend, vitae laoreet nunc luctus. Cras ac magna ac elit ultricies euismod vel sit amet felis. Nam porttitor justo in efficitur gravida. Donec lacinia, nisl vel vehicula blandit, nisi metus luctus diam, id iaculis arcu neque ac ipsum. Aenean consectetur congue lorem, eget ornare mi.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae semper arcu. Etiam id ullamcorper turpis. Fusce ac interdum turpis, sit amet aliquet turpis. Nulla ex mi, aliquam sit amet metus posuere, efficitur sollicitudin nisi. Quisque eros nulla, hendrerit et congue nec, efficitur at purus. Duis tincidunt cursus lacinia. In sit amet turpis odio. Vivamus rhoncus erat sed enim pharetra, sed faucibus lacus vestibulum. Quisque ut lacus nunc. Suspendisse nibh massa, pharetra eget urna sit amet, sagittis tristique nunc. Cras mattis massa sed justo eleifend, vitae laoreet nunc luctus. Cras ac magna ac elit ultricies euismod vel sit amet felis. Nam porttitor justo in efficitur gravida. Donec lacinia, nisl vel vehicula blandit, nisi metus luctus diam, id iaculis arcu neque ac ipsum. Aenean consectetur congue lorem, eget ornare mi.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "D\u00eda Mundial de toma de  conciencia del abuso y maltrato hacia  las personas adultas mayores",
+            "format": "basic_html",
+            "processed": "D\u00eda Mundial de toma de  conciencia del abuso y maltrato hacia  las personas adultas mayores"
+        }
+    ]
+}

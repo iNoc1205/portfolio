@@ -1,0 +1,18 @@
+uuid: d9d0b4eb-790e-44b5-96bb-a8338dea7351
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.work_experience
+id: node.work_experience.title
+field_name: title
+entity_type: node
+bundle: work_experience
+label: Work
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

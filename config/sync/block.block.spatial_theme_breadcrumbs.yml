@@ -1,0 +1,22 @@
+uuid: c186aa84-f4bd-4677-a73f-e6733dcf08db
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: DXvnBN2yBamtqJBatddhTC0jgOtCjsQgNw6tA4Ah3xU
+id: spatial_theme_breadcrumbs
+theme: spatial_theme
+region: header
+weight: -11
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

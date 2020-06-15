@@ -1,0 +1,36 @@
+uuid: 3a7f07df-0563-493b-af9f-03af8d8243ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.work_experience.body
+    - field.field.node.work_experience.field_end_date
+    - field.field.node.work_experience.field_initial_date
+    - field.field.node.work_experience.field_position
+    - node.type.work_experience
+  module:
+    - text
+    - user
+id: node.work_experience.teaser
+targetEntityType: node
+bundle: work_experience
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 0
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_end_date: true
+  field_initial_date: true
+  field_position: true

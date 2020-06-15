@@ -1,0 +1,23 @@
+uuid: 0c4678ae-2266-4ebc-b137-d66b0cf77b18
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: irfV6z3UcypKWJai-n-zyuhWkVuxBsmW85a9RBJwMLo
+id: bluemasters_search
+theme: bluemasters
+region: search_area
+weight: -13
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

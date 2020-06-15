@@ -1,0 +1,22 @@
+uuid: e6110cef-b6e6-4456-ad9c-f0045bdf39e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: _oWW1HugXrcsQFB1Xc-c4q5uqIGFT90oAUqBmAklcdI
+id: bluemasters_content
+theme: bluemasters
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

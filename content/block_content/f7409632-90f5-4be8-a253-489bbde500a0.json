@@ -1,0 +1,77 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        }
+    },
+    "uuid": [
+        {
+            "value": "f7409632-90f5-4be8-a253-489bbde500a0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-06-14T03:00:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Work Experience",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T03:00:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<ul>\r\n\t<li><span><span><span><span><span><span>Instituto de M\u00fasica Sion. Perform Customer Service (Summer 2010 and 2011).<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\r\n\t<li><span><span><span><span><span><span>Grupo Sur. Accounting Assistant, Internship (September 2013).<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\r\n\t<li><span><span><span><span><span><span>IBM Costa Rica as Internal Auditor over operations. From October 2014 to November 2015.&nbsp;<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\r\n\t<li><span><span><span><span><span><span>Cures and Curiosities with a J1 Student Program in Keystone, Colorado. From December 2015 to March 2016. Perform Assistant Manager role.<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\r\n\t<li><span><span><span><span><span><span>Cures and Curiosities with a J1 Student Program in Keystone, Colorado. From December 2016 to March 2017. Perform Store Supervisor role.<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<ul>\n\t<li><span><span><span><span><span><span>Instituto de M\u00fasica Sion. Perform Customer Service (Summer 2010 and 2011).<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\n\t<li><span><span><span><span><span><span>Grupo Sur. Accounting Assistant, Internship (September 2013).<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\n\t<li><span><span><span><span><span><span>IBM Costa Rica as Internal Auditor over operations. From October 2014 to November 2015.\u00a0<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\n\t<li><span><span><span><span><span><span>Cures and Curiosities with a J1 Student Program in Keystone, Colorado. From December 2015 to March 2016. Perform Assistant Manager role.<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\n\t<li><span><span><span><span><span><span>Cures and Curiosities with a J1 Student Program in Keystone, Colorado. From December 2016 to March 2017. Perform Store Supervisor role.<\/span><\/span><\/span><\/span><\/span><\/span><\/li>\n<\/ul>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

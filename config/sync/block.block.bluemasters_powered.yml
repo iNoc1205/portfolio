@@ -1,0 +1,22 @@
+uuid: 6e6cd233-62b1-4296-9cc2-d53ac321e456
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: WQfhtI7-JEFDRQLTWTKn-UY0vmY7tRcwUGlCwI4BElE
+id: bluemasters_powered
+theme: bluemasters
+region: footer
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

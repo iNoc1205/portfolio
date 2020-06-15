@@ -1,0 +1,30 @@
+uuid: 5525e432-d8f3-476d-87d8-34a0bb7e4533
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: _oWW1HugXrcsQFB1Xc-c4q5uqIGFT90oAUqBmAklcdI
+id: spatial_theme_content
+theme: spatial_theme
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      my_works: my_works
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,20 @@
+uuid: b3d44c4a-1009-45a2-928e-5c3416393dae
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: NgR-WifqmdC2cFSdaMo47fvrId_EqrHFu55PySegdW0
+id: bluemasters_local_actions
+theme: bluemasters
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

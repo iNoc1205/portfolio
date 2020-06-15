@@ -1,0 +1,22 @@
+uuid: af55dc9c-a2b5-4148-9154-9f9a5b2e7adb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: bll4Y4zd3w_U3SlUOWV4Fc-PbZhYfA_KYpXHTktfP70
+id: bluemasters_help
+theme: bluemasters
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

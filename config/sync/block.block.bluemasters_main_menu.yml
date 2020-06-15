@@ -1,0 +1,27 @@
+uuid: 9a6933a0-1512-4a53-922b-da48f39f2d76
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: zDvMPv96pbWqmZqsTCKZtP0oUOiljQ8FoMhUS--ecUI
+id: bluemasters_main_menu
+theme: bluemasters
+region: navigation
+weight: -14
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

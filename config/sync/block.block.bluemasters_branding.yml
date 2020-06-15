@@ -1,0 +1,25 @@
+uuid: b04bc639-4fd4-4c5d-8717-ac3dfdeef489
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: 0UmsEzzv7KhbLYdw1VGrweneQng_X2uTH4B1nqCh9bY
+id: bluemasters_branding
+theme: bluemasters
+region: site_info
+weight: -10
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: ff6de505-3312-4c14-b699-08da1d426af0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.contact_me
+  module:
+    - text
+id: node.contact_me.body
+field_name: body
+entity_type: node
+bundle: contact_me
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

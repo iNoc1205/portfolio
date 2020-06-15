@@ -1,0 +1,27 @@
+uuid: c2cd2363-ef5b-49f3-a1ee-c2ac6b57c239
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - bluemasters
+_core:
+  default_config_hash: hQ59ovfZ05nNB-pgq-DrpDEhrivfs78THFAL6gMozfI
+id: bluemasters_account_menu
+theme: bluemasters
+region: header
+weight: -9
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

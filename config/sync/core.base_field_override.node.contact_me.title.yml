@@ -1,0 +1,18 @@
+uuid: 9c88e179-36d2-4306-8708-878ac375efc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.contact_me
+id: node.contact_me.title
+field_name: title
+entity_type: node
+bundle: contact_me
+label: 'Contact Me'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

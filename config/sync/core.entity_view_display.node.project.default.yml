@@ -1,0 +1,56 @@
+uuid: 260bd8f7-6747-4f76-83ef-a52b3f94237b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.project.body
+    - field.field.node.project.field_images
+    - field.field.node.project.field_teaser_image
+    - field.field.node.project.field_title
+    - node.type.project
+  module:
+    - field_gallery
+    - text
+    - user
+id: node.project.default
+targetEntityType: node
+bundle: project
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_images:
+    weight: 3
+    label: hidden
+    settings:
+      field_gallery_style: large
+      field_gallery_mainimglink: true
+      field_gallery_prev_next: true
+      field_gallery_thumb: true
+      field_gallery_thumb_style: thumbnail
+      field_gallery_thumb_max: 5
+      field_gallery_type: html
+      text_prev: Previous
+      text_next: Next
+    third_party_settings: {  }
+    type: field_gallery_formatter
+    region: content
+  field_title:
+    weight: 0
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_teaser_image: true

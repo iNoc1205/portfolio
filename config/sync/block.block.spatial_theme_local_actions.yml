@@ -1,0 +1,20 @@
+uuid: a34d7a39-dbc5-4c01-9ced-2b4630a82acf
+langcode: en
+status: true
+dependencies:
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: NgR-WifqmdC2cFSdaMo47fvrId_EqrHFu55PySegdW0
+id: spatial_theme_local_actions
+theme: spatial_theme
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

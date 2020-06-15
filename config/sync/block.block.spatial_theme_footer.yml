@@ -1,0 +1,27 @@
+uuid: a9c6af03-1bf7-4c25-9e5e-f0533c97f8b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: KdK3j_jhOnJGyyttNOceurjhwmeRm83NelvN4JDnb64
+id: spatial_theme_footer
+theme: spatial_theme
+region: header
+weight: -10
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 7adb1420-4bb8-4c0f-b4e1-16f30176413a
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: QFcj7StA3bUJJx1S4LOo71u_adMo51AFGjobVbPmcQ0
+id: spatial_theme_tools
+theme: spatial_theme
+region: header
+weight: -10
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

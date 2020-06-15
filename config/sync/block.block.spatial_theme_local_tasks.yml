@@ -1,0 +1,22 @@
+uuid: 84b40554-3e73-47b2-a106-bbf5f50ad2ef
+langcode: en
+status: false
+dependencies:
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: MNOBDSB12IuzarD7SGldiDrvWwpCuxsiXNeZs2VZQXw
+id: spatial_theme_local_tasks
+theme: spatial_theme
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

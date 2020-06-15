@@ -1,0 +1,54 @@
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://demo.ddev.site/themes/contrib/spatial_theme/favicon.ico'
+  use_default: 1
+schemas:
+  bootstrap: 8000
+  spatial_theme: 8000
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  node_user_picture: 1
+logo:
+  path: ''
+  url: ''
+  use_default: 0
+table_responsive: '-1'
+region_wells:
+  home_region: ''
+  navigation: ''
+  sub_navigation: ''
+  search_header: ''
+  social_sharing: ''
+  showcase_images: ''
+  user_menu: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  gallery_section: ''
+  testimonials_section: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+  footer_first: ''
+  footer_second: ''
+  footer_third: ''
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+table: ''
+spatial_theme_facebook: ''
+spatial_theme_twitter: ''
+spatial_theme_pinterest: ''
+welcome_text: 'About me'
+welcome_sub_text: 'My name is Enoc Villalobos. I''m a Web Design student. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus diam, scelerisque condimentum sollicitudin in, ultricies vitae elit. Nullam bibendum lacus eget turpis malesuada fermentum. Etiam eget blandit velit. Maecenas ut lectus vel erat molestie blandit. Etiam pellentesque odio ac odio efficitur, quis lobortis velit porta. Duis eget sapien a odio dapibus venenatis sed non purus. Suspendisse ut nisl enim. Integer id sem non felis auctor lacinia id in quam. Sed quis dolor lorem. In this page you will find some of my work as a web designer.'
+article_block: '0'
+background_file:
+  - '2'

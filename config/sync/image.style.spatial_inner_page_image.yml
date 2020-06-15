@@ -1,0 +1,17 @@
+uuid: 65a26724-8ba0-49e9-8149-562a7a8bbff6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: do4jAPha3Gon-r0ImnYYi8MMqHP-RGeXhwROK7eHl9I
+name: spatial_inner_page_image
+label: 'Spatial Inner page image'
+effects:
+  248f3335-42b5-4bf3-9d6d-27d8e3c27762:
+    uuid: 248f3335-42b5-4bf3-9d6d-27d8e3c27762
+    id: image_crop
+    weight: 1
+    data:
+      width: 788
+      height: 281
+      anchor: center-center

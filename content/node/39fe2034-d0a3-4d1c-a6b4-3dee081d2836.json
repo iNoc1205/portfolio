@@ -1,0 +1,141 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/9?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/contact_me"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/contact_me\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/contact_me\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "39fe2034-d0a3-4d1c-a6b4-3dee081d2836"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "contact_me"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-14T04:02:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/contact_me\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e0ed507-a082-4fa5-b44a-080bd56bd80f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/contact_me\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e0ed507-a082-4fa5-b44a-080bd56bd80f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Contact Me",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T03:58:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T04:02:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Tel:<\/p>\r\n\r\n<ul>\r\n\t<li>8661 0511<\/li>\r\n<\/ul>\r\n\r\n<p>Email:<\/p>\r\n\r\n<ul>\r\n\t<li>enoc.villa16@gmail.com<\/li>\r\n<\/ul>\r\n\r\n<p>LinkedIn:<\/p>\r\n\r\n<ul>\r\n\t<li><a href=\"https:\/\/www.linkedin.com\/in\/enoc-villalobos-leal-ab6569129\">My Profile<\/a><\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Tel:<\/p>\n\n<ul>\n\t<li>8661 0511<\/li>\n<\/ul>\n\n<p>Email:<\/p>\n\n<ul>\n\t<li>enoc.villa16@gmail.com<\/li>\n<\/ul>\n\n<p>LinkedIn:<\/p>\n\n<ul>\n\t<li><a href=\"https:\/\/www.linkedin.com\/in\/enoc-villalobos-leal-ab6569129\">My Profile<\/a><\/li>\n<\/ul>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

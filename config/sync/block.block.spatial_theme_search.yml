@@ -1,0 +1,23 @@
+uuid: bdb87b0b-a4ef-4ee6-968a-8294227713f4
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: irfV6z3UcypKWJai-n-zyuhWkVuxBsmW85a9RBJwMLo
+id: spatial_theme_search
+theme: spatial_theme
+region: home_region
+weight: -13
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

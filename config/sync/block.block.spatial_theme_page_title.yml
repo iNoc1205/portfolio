@@ -1,0 +1,20 @@
+uuid: c0691268-77c2-4f01-9744-65fe71b81c0b
+langcode: en
+status: false
+dependencies:
+  theme:
+    - spatial_theme
+_core:
+  default_config_hash: e4l8Fut8KQ0EzU9gBWONvbGbMoS5CtV0QmSP_xQQDNI
+id: spatial_theme_page_title
+theme: spatial_theme
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
